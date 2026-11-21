@@ -1,6 +1,6 @@
 cask "gary" do
-  version "0.1.0"
-  sha256 "fe8e8348492490c4d58fcdaf3693d8595ec52a3e968f82f89bd5381675b67ee9"
+  version "0.2.0"
+  sha256 "98d022b0e4bc0297669b5943364d3ce9c755e682992414b836832f4812ed5d48"
 
   url "https://github.com/sndrgrdn/gary/releases/download/v#{version}/Gary-#{version}.zip"
   name "Gary"
