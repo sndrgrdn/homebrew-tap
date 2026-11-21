@@ -22,6 +22,8 @@ cask "gary" do
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Gary.app"]
   end
 
+  uninstall quit: "com.sndrgrdn.gary"
+
   zap trash: [
     "~/Library/Application Support/Gary",
     "~/Library/Logs/gary.log",
